@@ -1,0 +1,10 @@
+.main{
+    display: flex;
+    height: 100vh;
+    @media screen and (min-width:280px) and (max-width:1080px){
+        padding: 0;
+        &::-webkit-scrollbar{
+            display:none;
+        }
+    }
+}
